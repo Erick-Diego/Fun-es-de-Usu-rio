@@ -1,4 +1,3 @@
-// userModel.js
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
@@ -16,7 +15,7 @@ const userSchema = new mongoose.Schema({
         required: true
     },
     fotoPerfil: {
-        type: String // Caminho para a foto de perfil
+        type: String 
     },
     biografia: {
         type: String
